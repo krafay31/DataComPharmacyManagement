@@ -1,0 +1,17 @@
+{
+    "label": "Build Client",
+    "type": "shell",
+    "command": "gcc",
+    "args": [
+        "-o",
+        "client.exe",
+        "client.c",
+        "-lws2_32"
+    ],
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    },
+    "problemMatcher": ["$gcc"],
+    "detail": "Build task for client.c"
+}
